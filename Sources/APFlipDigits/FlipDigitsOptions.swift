@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// FlipDigitsOptions description here
+/// Options to customize the appearence of ``FlipDigits`` view
 public struct FlipDigitsOptions {
     
     let cellBackgroundColor : Color
@@ -9,12 +9,12 @@ public struct FlipDigitsOptions {
     let cellSpacing: CGFloat
     
     
-    /// TODO
+    /// Initialize a new configuration
     /// - Parameters:
-    ///   - cellSize: TODO
-    ///   - cellSpacing: TODO
-    ///   - cellBackgroundColor: TODO
-    ///   - cellForegroundColor: TODO
+    ///   - cellSize: Dimension of the single digit cell
+    ///   - cellSpacing: Distance betweens cells
+    ///   - cellBackgroundColor: The color of the cells
+    ///   - cellForegroundColor: The color of the number digit displayed in the cell
     public init(cellSize: CGFloat? = 50, cellSpacing: CGFloat? = 10, cellBackgroundColor: Color? = .black, cellForegroundColor: Color? = .white) {
         self.cellBackgroundColor = cellBackgroundColor ?? .black
         self.cellSize = cellSize ?? 50

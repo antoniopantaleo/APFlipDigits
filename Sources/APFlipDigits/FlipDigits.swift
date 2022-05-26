@@ -1,9 +1,9 @@
 import SwiftUI
 
-/// TODO
+/// The view displaindssf the digits
 public struct FlipDigits : View {
     
-    /// TODO
+    /// Initialkze a new view
     /// - Parameters:
     ///   - number: TODO
     ///   - minNumberOfDigits: TODO
@@ -14,7 +14,7 @@ public struct FlipDigits : View {
         self.options = options
     }
     
-    /// TODO
+    /// Initialize a new view
     /// - Parameters:
     ///   - number: TODO
     ///   - minNumberOfDigits: TODO
