@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/platform-iOS-blue?style=flat-square)
 ![](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![](https://img.shields.io/badge/iOS-13,14,15-white?style=flat-square)
-![https://antoniopantaleo.dev/APFlipDigits/documentation/apflipdigits](https://img.shields.io/badge/DocC-documented-blue?style=flat-square)
+[![](https://img.shields.io/badge/DocC-documented-blue?style=flat-square)](https://antoniopantaleo.dev/APFlipDigits/documentation/apflipdigits)
 
 <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Assets/Presentation-Dark.gif">
