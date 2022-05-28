@@ -81,6 +81,23 @@ struct ContentView : View {
 
 ## Installation
 
+### Xcode Project
+
+You have to select `File` -> `Swift Packages` -> `Add Package Dependency` and enter the repository url `https://github.com/antoniopantaleo/APFlipDigits.git`
+
+### Swift Package Manager
+
+You have to add the package as a dependency in your `Package.swift` file
+```swift
+let package = Package(
+    //...
+    dependencies: [
+        .package(url: "https://github.com/antoniopantaleo/APFlipDigits.git", upToNextMajor(from: "1.0.0")),
+    ],
+    //...
+)
+```
+
 ## License
 
 [MIT](LICENSE)
