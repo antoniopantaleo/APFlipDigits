@@ -1,10 +1,8 @@
 # ``APFlipDigits``
 
-Summary goes here
+Display and animate an integer number with ease
 
 ## Overview
-
-Text
 
 ![Hero](hero.gif)
 
