@@ -1,6 +1,10 @@
 # APFlipDigits
 
-![](https://img.shields.io/badge/swift-5.6-FA7343?style=flat-square)![](https://img.shields.io/badge/platform-iOS-blue?style=flat-square) ![](https://img.shields.io/badge/license-MIT-green?style=flat-square)![](https://img.shields.io/badge/iOS-13,14,15-white?style=flat-square)
+![](https://img.shields.io/badge/swift-5.6-FA7343?style=flat-square)
+![](https://img.shields.io/badge/platform-iOS-blue?style=flat-square)
+![](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![](https://img.shields.io/badge/iOS-13,14,15-white?style=flat-square)
+![https://antoniopantaleo.dev/APFlipDigits/documentation/apflipdigits](https://img.shields.io/badge/DocC-documented-blue?style=flat-square)
 
 <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="Assets/Presentation-Dark.gif">
@@ -10,9 +14,13 @@
 <div align="center">
 <img alt="Hero Image" src="Assets/Presentation-Light.gif">
 </div>
-APFlip digits is a SwiftUI package that lets you create an animated view capable of displaying numbers!
 
-Inspiration came from [this article](https://medium.com/@martin_8889/flutter-animated-multi-digit-display-1c9e45c99cfc)
+<br/>
+
+APFlipDigits is a SwiftUI package that lets you create an animated view capable of displaying numbers!
+
+
+> Inspiration came from [this article](https://medium.com/@martin_8889/flutter-animated-multi-digit-display-1c9e45c99cfc)
 
 ## Features
 
@@ -25,23 +33,23 @@ Inspiration came from [this article](https://medium.com/@martin_8889/flutter-ani
   </tr>
   <tr>
     <td>
-      <img alt="Hero Image" src="Assets/Showcase-Light.gif">
+      <img alt="Showcase animation" src="Assets/Showcase-Light.gif">
     </td>
     <td>
-      <img alt="Hero Image" src="Assets/Digits-Light.gif">
+      <img alt="Dynamic cells creation animation" src="Assets/Digits-Light.gif">
     </td>
     <td>
-      <img alt="Hero Image" src="Assets/Negative-Light.gif">
+      <img alt="Negative number handling animation" src="Assets/Negative-Light.gif">
     </td>
     <td>
-      <img alt="Hero Image" src="Assets/CustomConfiguration-Light.gif">
+      <img alt="Custom configuration animation" src="Assets/CustomConfiguration-Light.gif">
     </td>
   </tr>
 </table>
 
 ## Usage
 
-`number` must be a `@State` property
+Just instantiante a new `FlipDigits` view, specifying the number you want to display and, eventually, the minimum number of digits the view should display
 
 ```swift
 import APFlipDigits
@@ -55,7 +63,7 @@ struct ContentView : View {
 }
 ```
 
-`FlipDigit` view can be customized, specifying a `FlipDigitsOptions`, like in this example here
+You can customize the view specifying a `FlipDigitsOptions`, like in this example here:
 
 ```swift
 import APFlipDigits
