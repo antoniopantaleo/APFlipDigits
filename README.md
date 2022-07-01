@@ -6,13 +6,11 @@
 ![](https://img.shields.io/badge/iOS-13,14,15-white?style=flat-square)
 [![](https://img.shields.io/badge/DocC-documented-blue?style=flat-square)](https://antoniopantaleo.dev/APFlipDigits/documentation/apflipdigits)
 
-<!-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Assets/Presentation-Dark.gif">
-  <img alt="Hero Image" src="Assets/Presentation-Light.gif">
-</picture> -->
-
 <div align="center">
-<img alt="Hero Image" src="Assets/Presentation-Light.gif">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="Assets/Presentation-Dark.gif">
+    <img alt="Hero Image" src="Assets/Presentation-Light.gif">
+  </picture> 
 </div>
 
 <br/>
@@ -33,16 +31,28 @@ APFlipDigits is a SwiftUI package that lets you create an animated view capable 
   </tr>
   <tr>
     <td>
-      <img alt="Showcase animation" src="Assets/Showcase-Light.gif">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="Assets/Showcase-Dark.gif">
+      <img alt="Hero Image" src="Assets/Showcase-Light.gif">
+    </picture> 
     </td>
     <td>
-      <img alt="Dynamic cells creation animation" src="Assets/Digits-Light.gif">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="Assets/Digits-Dark.gif">
+      <img alt="Hero Image" src="Assets/Digits-Light.gif">
+    </picture> 
     </td>
     <td>
-      <img alt="Negative number handling animation" src="Assets/Negative-Light.gif">
+<picture>
+      <source media="(prefers-color-scheme: dark)" srcset="Assets/Negative-Dark.gif">
+      <img alt="Hero Image" src="Assets/Negative-Light.gif">
+    </picture> 
     </td>
     <td>
-      <img alt="Custom configuration animation" src="Assets/CustomConfiguration-Light.gif">
+<picture>
+      <source media="(prefers-color-scheme: dark)" srcset="Assets/CustomConfiguration-Dark.gif">
+      <img alt="Hero Image" src="Assets/CustomConfiguration-Light.gif">
+    </picture> 
     </td>
   </tr>
 </table>
